@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Candy Hosting — Web Hosting Plans</title>
+<title>CandyHosting — Web Hosting Plans</title>
 <style>
-:root{--primary:#dc2626;--primary-dark:#b91c1c;--primary-light:#ef4444;--accent:#fbbf24;--bg:#0f0a0a;--card:#1c1010;--border:#3b1f1f;--text:#f5f0f0;--muted:#a08080;}
+:root{--primary:#ec4899;--primary-dark:#db2777;--primary-light:#f472b6;--accent:#fbbf24;--bg:#0f0a0f;--card:#1c1018;--border:#3b1f33;--text:#f5f0f5;--muted:#a080a0;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:"Segoe UI",system-ui,sans-serif;min-height:100vh;}
-nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2.5rem;border-bottom:1px solid var(--border);background:rgba(15,10,10,.95);position:sticky;top:0;z-index:50;backdrop-filter:blur(8px);}
+nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2.5rem;border-bottom:1px solid var(--border);background:rgba(15,10,15,.95);position:sticky;top:0;z-index:50;backdrop-filter:blur(8px);}
 .logo{font-size:1.35rem;font-weight:800;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:.5rem;}
 .logo em{color:var(--primary);font-style:normal;}
 .nav-links{display:flex;gap:1.75rem;align-items:center;}
@@ -17,8 +17,8 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2
 .btn-login{background:var(--primary);color:#fff!important;padding:.45rem 1.1rem;border-radius:6px;font-size:.85rem;font-weight:600;transition:background .2s;}
 .btn-login:hover{background:var(--primary-dark)!important;}
 .hero{text-align:center;padding:5rem 1rem 2.5rem;position:relative;overflow:hidden;}
-.hero::before{content:"";position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:600px;height:300px;background:radial-gradient(ellipse,rgba(220,38,38,.18) 0%,transparent 70%);pointer-events:none;}
-.hero-tag{display:inline-block;background:rgba(220,38,38,.15);border:1px solid rgba(220,38,38,.35);color:var(--primary-light);font-size:.75rem;font-weight:700;padding:.3rem .9rem;border-radius:999px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:1.25rem;}
+.hero::before{content:"";position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:600px;height:300px;background:radial-gradient(ellipse,rgba(236,72,153,.18) 0%,transparent 70%);pointer-events:none;}
+.hero-tag{display:inline-block;background:rgba(236,72,153,.15);border:1px solid rgba(236,72,153,.35);color:var(--primary-light);font-size:.75rem;font-weight:700;padding:.3rem .9rem;border-radius:999px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:1.25rem;}
 .hero h1{font-size:3rem;font-weight:900;line-height:1.1;margin-bottom:1rem;letter-spacing:-.03em;}
 .hero h1 em{color:var(--primary);font-style:normal;}
 .hero p{color:var(--muted);font-size:1.05rem;max-width:520px;margin:0 auto 2rem;line-height:1.65;}
@@ -31,8 +31,8 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2
 .save-tag{background:rgba(251,191,36,.15);color:var(--accent);font-size:.68rem;font-weight:700;padding:.15rem .45rem;border-radius:4px;margin-left:.3rem;}
 .plans{display:flex;gap:1.25rem;justify-content:center;flex-wrap:wrap;padding:1rem 2rem 5rem;max-width:1150px;margin:0 auto;}
 .plan-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:2rem 1.75rem;width:330px;position:relative;transition:transform .25s,border-color .25s,box-shadow .25s;}
-.plan-card:hover{transform:translateY(-6px);border-color:var(--primary);box-shadow:0 0 30px rgba(220,38,38,.15);}
-.plan-card.popular{border-color:var(--primary);background:linear-gradient(160deg,#221010 0%,#1c0a0a 100%);}
+.plan-card:hover{transform:translateY(-6px);border-color:var(--primary);box-shadow:0 0 30px rgba(236,72,153,.15);}
+.plan-card.popular{border-color:var(--primary);background:linear-gradient(160deg,#22101e 0%,#1c0a18 100%);}
 .popular-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--primary);color:#fff;font-size:.68rem;font-weight:800;padding:.28rem .85rem;border-radius:999px;white-space:nowrap;text-transform:uppercase;letter-spacing:.07em;}
 .plan-icon{font-size:2rem;margin-bottom:.75rem;}
 .plan-name{font-size:1.3rem;font-weight:800;margin-bottom:.4rem;}
@@ -45,7 +45,7 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 2
 .features-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700;margin-bottom:.6rem;margin-top:1rem;}
 .features-label:first-child{margin-top:0;}
 .plan-features{list-style:none;margin-bottom:.5rem;}
-.plan-features li{padding:.38rem 0;font-size:.85rem;color:#d0b8b8;display:flex;align-items:flex-start;gap:.55rem;line-height:1.4;}
+.plan-features li{padding:.38rem 0;font-size:.85rem;color:#d0b8cc;display:flex;align-items:flex-start;gap:.55rem;line-height:1.4;}
 .plan-features li .check{color:var(--primary-light);font-size:.8rem;margin-top:.1rem;flex-shrink:0;}
 .divider{border:none;border-top:1px solid var(--border);margin:1rem 0;}
 .btn-plan{display:block;text-align:center;padding:.8rem;border-radius:10px;font-weight:700;font-size:.95rem;cursor:pointer;text-decoration:none;transition:all .2s;border:none;width:100%;margin-top:1.5rem;}
@@ -64,7 +64,7 @@ footer{border-top:1px solid var(--border);padding:2rem;text-align:center;color:v
 </head>
 <body>
 <nav>
-  <a href="index.html" class="logo">&#9881;&#65039; Gears<em>Hosting</em></a>
+  <a href="index.html" class="logo">🍬 Candy<em>Hosting</em></a>
   <div class="nav-links">
     <a href="#">Features</a>
     <a href="#">Support</a>
@@ -168,10 +168,10 @@ footer{border-top:1px solid var(--border);padding:2rem;text-align:center;color:v
 </div>
 <footer>
   <div class="footer-links">
-    <a href="#">Terms of Service</a>
-    <a href="#">Privacy Policy</a>
-    <a href="#">Refund Policy</a>
-    <a href="#">Contact Us</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="contact.html">Contact Us</a>
   </div>
   <p>&copy; 2026 CandyHosting &middot; Professional Web Hosting Services</p>
 </footer>
